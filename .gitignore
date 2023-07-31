@@ -1,0 +1,38 @@
+#####################
+
+#Unreal Generated Files#
+
+####################
+
+*/Build
+
+*/Binaries
+
+*/DerivedDataCache
+
+*/Intermediate
+
+*/Saved
+
+############
+
+#Asset Files#
+
+###########
+
+*/Content
+
+#*/Content/Mannequin
+
+#*/Content/StarterContent
+
+#*/Content/ParagonYin
+
+#*/Content/ParagonRampage
+##################
+
+#VS Generated Files#
+
+#################
+
+*/.vs
