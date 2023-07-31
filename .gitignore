@@ -2,7 +2,7 @@
 
 #Unreal Generated Files#
 
-####################
+#####################
 
 */Build
 
@@ -20,15 +20,15 @@
 
 ###########
 
-*/Content
 
-#*/Content/Mannequin
 
-#*/Content/StarterContent
+*/Content/Mannequin
 
-#*/Content/ParagonYin
+*/Content/StarterContent
 
-#*/Content/ParagonRampage
+*/Content/ParagonYin
+
+*/Content/ParagonRampage
 ##################
 
 #VS Generated Files#
