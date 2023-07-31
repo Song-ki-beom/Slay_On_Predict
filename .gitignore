@@ -4,15 +4,15 @@
 
 #####################
 
-*/Build
+/Build/
 
-*/Binaries
+/Binaries/
 
-*/DerivedDataCache
+/DerivedDataCache/
 
-*/Intermediate
+/Intermediate/
 
-*/Saved
+/Saved/
 
 ############
 
@@ -22,17 +22,19 @@
 
 
 
-*/Content/Mannequin
+/Content/Mannequin/
 
-*/Content/StarterContent
+/Content/StarterContent/
 
-*/Content/ParagonYin
+/Content/ParagonYin/
 
-*/Content/ParagonRampage
+/Content/ParagonRampage/
+/Content/StarterContent/
+/Content/Geometry/
 ##################
 
 #VS Generated Files#
 
 #################
 
-*/.vs
+/.vs/
