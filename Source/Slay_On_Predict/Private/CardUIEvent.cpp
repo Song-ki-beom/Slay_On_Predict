@@ -3,7 +3,14 @@
 
 #include "CardUIEvent.h"
 #include "Blueprint/UserWidget.h"	
-void UCardUIEvent::AddCard(UUserWidget* DeckBtn) {
-
+#include "Engine/DataTable.h"
+#include "Card_FL.h"
+#include "UObject/ConstructorHelpers.h"
+FCardInfo UCardUIEvent::AddCard(UDataTable* CardTable) {
+	card_FL = NewObject<UCard_FL>();
+	FCardInfo card = card_FL->GetRandomCard(CardTable);
+	 
+	return card;
+	
 	
 }

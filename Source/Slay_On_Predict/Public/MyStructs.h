@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/DataTable.h"
 #include "Engine/Texture2D.h"
 #include "Components/TextBlock.h"
 #include "Math/Color.h"
@@ -19,16 +20,17 @@ public:
 };
 
 USTRUCT(Atomic, BlueprintType)
-struct FCardInfo
-{
+struct FCardInfo : public FTableRowBase
+{ 
 	GENERATED_BODY()
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UTextBlock* CardName;
+	//UTextBlock* CardName;
+	FString  CardName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UTexture2D* Image;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UTextBlock* CardDescription;
+	FString  CardDescription;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FLinearColor BackGroundImage;
 

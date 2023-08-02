@@ -3,10 +3,3 @@
 
 #include "MyStructs.h"
 
-MyStructs::MyStructs()
-{
-}
-
-MyStructs::~MyStructs()
-{
-}
